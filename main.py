@@ -60,3 +60,6 @@ while not is_game_over():
     else:
         errors += 1
         print(f"Oops :( No such word, you have {ERRORS_TO_LOSE - errors} lives more")
+
+if is_game_over():
+    print('Sorry, you have lost(')
